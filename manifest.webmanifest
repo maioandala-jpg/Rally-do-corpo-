@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Rally & Voo do Corpo",
+  "short_name": "Rally & Voo",
+  "description": "Dirija um nanocarro ou pilote uma nanoaeronave pelo corpo humano. Aprenda biologia jogando. By Andala.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#1a0610",
+  "theme_color": "#3a0a14",
+  "categories": ["games", "education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

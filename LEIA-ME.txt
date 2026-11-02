@@ -1,0 +1,20 @@
+RALLY & VOO DO CORPO · versão PWA (instalável e offline)
+
+COMO COLOCAR NO AR (precisa de HTTPS; é grátis):
+ 1) Netlify Drop: abra app.netlify.com/drop e arraste a PASTA inteira (não o zip).
+ 2) Ou GitHub Pages / Cloudflare Pages / Vercel: envie todos os arquivos desta pasta.
+ Mantenha index.html, sw.js, manifest.webmanifest e a pasta icons/ juntos, na raiz do site.
+
+COMO O JOGADOR INSTALA:
+ - Android (Chrome): abrir o link, tocar em "Instalar no celular" (ou menu ⋮ > Instalar app).
+ - iPhone (Safari): Compartilhar > Adicionar à Tela de Início.
+ Na primeira abertura com internet o jogo é baixado inteiro; depois funciona 100% offline.
+
+PARA PUBLICAR UMA ATUALIZAÇÃO:
+ Troque o número em VERSION no começo do sw.js (ex.: 'v1' para 'v2') e envie os arquivos de novo.
+ Quem estiver com internet recebe a versão nova na abertura seguinte.
+
+Observação: abrir o index.html direto do celular (file://) não instala nem usa offline por PWA;
+o jogo em si roda, mas o PWA só funciona a partir de um endereço https:// (ou localhost).
+
+© 2026 João Paulo Andala Júnior. Todos os direitos reservados.
